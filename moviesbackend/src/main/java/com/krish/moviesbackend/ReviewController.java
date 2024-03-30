@@ -9,7 +9,7 @@ import java.util.Map;
 
 @RestController
 @RequestMapping("/api/v1/reviews")
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = "https://springboot-fullstack-basics-client.vercel.app")
 public class ReviewController {
     @Autowired
     private ReviewService reviewService;

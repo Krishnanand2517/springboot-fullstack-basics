@@ -11,7 +11,7 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping("/api/v1/movies")
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = "https://springboot-fullstack-basics-client.vercel.app")
 public class MovieController {
     @Autowired
     private MovieService movieService;
